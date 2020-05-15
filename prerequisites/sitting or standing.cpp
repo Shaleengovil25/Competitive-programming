@@ -1,3 +1,5 @@
+https://orac.amt.edu.au/cgi-bin/train/problem.pl?set=simple1&problemid=342
+
 #include<bits/stdc++.h>
 using namespace std;
 
