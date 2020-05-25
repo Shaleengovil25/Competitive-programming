@@ -28,3 +28,13 @@ int main(){
     
     return 0;
 }
+
+
+sample input:
+3
+1 2 3 
+4 5 6
+7 8 9
+
+sample output:
+1 4 7 8 5 2 3 6 9 
