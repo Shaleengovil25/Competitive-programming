@@ -1,6 +1,4 @@
-
 #include <iostream>
-#include<math.h>
 using namespace std;
 int count(int n){
     if(n == 0){
@@ -9,6 +7,11 @@ int count(int n){
     int smallAns = count(n / 10);
     return smallAns +1;
 }
+
+// int count(int n){
+// 	return (n==0)?0:count(n/10)+1;
+// }
+
 int main() {
 	// your code goes here
 	
