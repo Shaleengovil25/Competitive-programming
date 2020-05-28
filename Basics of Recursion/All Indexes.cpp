@@ -32,8 +32,13 @@ int main() {
 	}
 	cin >> x;
 	int d = allIndexes(arr,size,x,o);
-	for(int i=0;i<d;i++){
-	    cout << o[i] << " ";
+	if(d!=0){
+		for(int i=0;i<d;i++){
+	    	cout << o[i] << " ";
+	    	}    
+	}
+	else{
+	    	cout << d;
 	}
 	delete [] arr;
 	return 0;
