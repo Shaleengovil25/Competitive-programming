@@ -51,5 +51,18 @@ int main() {
 	return 0;
 }
 
+Sample Input:
+7
+7 6 5 4 3 2 1
+12
+
+Sample Output:
+1 4 7
+1 5 6
+2 3 7
+2 4 6
+3 4 5
+
+	
 //Efficient Approach Time O(n^2) Space O(1)
 //using two-pointer technique
