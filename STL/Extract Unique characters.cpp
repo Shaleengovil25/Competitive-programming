@@ -47,6 +47,7 @@ int main() {
 	while(cin >> input){
 	    v.push_back(input);
 	}
+	//USING MAP
 	map<char,int> m;
 	for(int i=0;i<v.size();i++){
 	    if(m[v[i]] == 0){
@@ -55,6 +56,16 @@ int main() {
 	        
 	    }
 	}
+	
+	//USING SET
+	set<char> s;
+    	for(int i=0;i<v.size();i++){
+        if(s.find(v[i]) == s.end()){
+            s.insert(v[i]);
+            o.push_back(v[i]);
+        }
+    }
+
 	for(int i=0;i<o.size();i++){
 	    cout << o[i];
 	}
@@ -72,6 +83,4 @@ bcaadc
 Sample Output 2 :
 bcad
 
-NOTE: Relative order needs to be maintained, so we cannot use set as it always give output in sorted order.
-sample output 2 using set will be : 'abcd'
-Also, unordered_set do not guarantee any order.
+
