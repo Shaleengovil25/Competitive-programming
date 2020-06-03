@@ -1,4 +1,4 @@
-//Time O(logn) Space O(logn)
+//Time O(n) Space O(n)
 #include <iostream>
 #include<map>
 #include<iterator>
