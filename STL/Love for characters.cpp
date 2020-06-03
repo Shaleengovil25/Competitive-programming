@@ -17,7 +17,7 @@ int main() {
         //   string s;
         // getline(cin,s);
         // vector<char> v(s.begin(),s.end());
-        // No need to give size of array here.
+        // No need to give size of array here as loop will go from i=0 to i < v.size()
       
 	map<char,int> m;
 	for(int i=0;i<n;i++){
