@@ -62,3 +62,16 @@ int main() {
 	return 0;
 }
 
+Sample Input 1 :
+ababacd
+Sample Output 1 :
+abcd
+
+Sample Input 2 :
+bcaadc
+Sample Output 2 :
+bcad
+
+NOTE: Relative order needs to be maintained, so we cannot use set as it always give output in sorted order.
+sample output 2 using set will be : 'abcd'
+Also, unordered_set do not guarantee any order.
