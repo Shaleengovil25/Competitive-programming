@@ -1,5 +1,5 @@
-//Time O(logn) [Traversal of map] 
-//Space O(n) [Insertion in vector]
+//Time O(n) [filling values in map] 
+//Space O(n) [Creating map]
 #include <iostream>
 #include<vector>
 #include<map>
