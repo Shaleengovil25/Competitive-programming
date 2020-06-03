@@ -1,3 +1,4 @@
+//Time O(n) Space O(n)
 #include<bits/stdc++.h>
 #include<map>
 #include<vector>
@@ -82,5 +83,9 @@ Sample Input 2 :
 bcaadc
 Sample Output 2 :
 bcad
+
+NOTE: set cannot be used directly to store and print elements though it will keep only unique elements bcoz
+elements gets sorted in set, here it is needed to maintain the relative order so another vector has to store elements.
+afa unordered_map goes, it does not guarantee any order.
 
 
