@@ -56,3 +56,6 @@ SAMPLE OUTPUT:
 NOTE: MultiMap has unique pairs while Map has unique keys to all values.
 for eg. (2,a);(3,a) can be in multimap but not in map.
 (2,a);(3,b) can be in multimap and map as well.
+
+For more info, refer:
+https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
