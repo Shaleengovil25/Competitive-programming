@@ -1,4 +1,4 @@
-// BRUTE FORCE => Time O(n^3), Space O(1)
+// BRUTE FORCE => Time O(n^2), Space O(1)
 
 #include <iostream>
 using namespace std;
