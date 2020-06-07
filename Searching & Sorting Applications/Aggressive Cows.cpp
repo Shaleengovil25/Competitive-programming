@@ -1,4 +1,5 @@
 //Time O(nlogd) Space O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
