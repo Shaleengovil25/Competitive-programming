@@ -41,6 +41,8 @@ int main() {
 	return 0;
 }
 
+--------------------------------------------------------------
+	
 // KADANE ALGORITHM => Time O(n), Space O(1)
 
 #include <iostream>
@@ -79,3 +81,7 @@ int main() {
 	delete [] arr;
 	return 0;
 }
+
+
+For Reference:
+https://www.geeksforgeeks.org/find-subarray-with-given-sum/
