@@ -26,6 +26,7 @@ int main() {
     cin >> s;
     removeConsecutiveDuplicates(s);
     cout << s << endl;
+    delete [] s;
 }
 
 
