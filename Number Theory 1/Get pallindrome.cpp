@@ -1,3 +1,5 @@
+//APPROACH 1 =>
+
 #include <iostream>
 using namespace std;
 
@@ -32,6 +34,37 @@ int main() {
 	
 	return 0;
 }
+
+//APPROACH 2 =>
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+bool check(int n){
+    string s1 = to_string(n);
+    string s2 = s1;
+    reverse(s1.begin(),s1.end());
+    if(s1 == s2){
+        return true;
+    }
+    return false;
+}
+
+int main() {
+	// your code goes here
+	int n;
+	cin >> n;
+	for(int i=1;i<=n;i++){
+	    if(check(i)){
+	        cout << i << endl;
+	    }
+	}
+
+	return 0;
+}
+
 
 
 Sample Input : 101
