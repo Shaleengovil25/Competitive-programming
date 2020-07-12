@@ -31,3 +31,6 @@ a
 ac
 ab
 abc
+
+//Approach 2 => using Bitmasking
+//https://github.com/Shaleengovil25/Practice-Codes/blob/master/Basic/Bitmasking%20Subsets.cpp
