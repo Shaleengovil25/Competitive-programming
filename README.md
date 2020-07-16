@@ -5,3 +5,5 @@
 Omega Notation ( Ω ) gives the best case complexity. <br>
 Big O Notation ( O ) gives the worst case complexity. <br>
 Theta Notation ( θ ) gives the average case complexity of an algorithm.
+
+for detailed information, refer <a href="https://github.com/Shaleengovil25/Practice-Codes/blob/master/Searching%20and%20Sorting/Summary.md">this</a>
